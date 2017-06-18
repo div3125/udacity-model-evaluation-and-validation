@@ -13853,6 +13853,7 @@ clf.fit(X_train, y_train)
 print "Best estimator: %s", %(clf.best_estimator_)</code></pre>
 <ul>
 <li>The above code implements KNN on provided dataset for different values of n_neighbors and returns the best model.</li>
+<li>In case of more than one hyperparameters, GridSearchCV performs an exhaustive search among all the candidate values and retains the best combination.</li>
 </ul>
 
 </div>
@@ -13910,6 +13911,9 @@ clf = GSCV(KNN(), param_grid, cv=kf)
 """
 clf.fit(X_train, y_train)
 print "Best estimator: %s", %(clf.best_estimator_)</code></pre>
+<ul>
+<li>The final score is the average of all scores obtained from <code>k</code> iterations. The final error is also the average of all errors across <code>k</code> runs.</li>
+</ul>
 
 </div>
 </div>

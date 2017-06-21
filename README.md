@@ -1,5 +1,5 @@
 # udacity-model-evaluation-and-validation
-Model evaluation and validation project for Udacity's Machine Learning Nanodegree
+Predicting Boston Housing Prices
 
 ### Requirements
 
@@ -9,7 +9,7 @@ Model evaluation and validation project for Udacity's Machine Learning Nanodegre
     - [NumPy](http://www.numpy.org/)
     - [Pandas](http://pandas.pydata.org/)
     - [matplotlib](http://matplotlib.org/)
-    - [scikit-learn](http://scikit-learn.org/stable/)
+    - [scikit-learn](http://scikit-learn.org/stable/) (v0.17)
 
     Additional software:
     
